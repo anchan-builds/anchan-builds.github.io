@@ -1,0 +1,174 @@
+<!--
+  fgc-application.html - FGC 2026 Team Nepal application page
+  Purpose: Application portfolio for joining Team Nepal robotics team for FGC 2026 (Incheon, Korea)
+  Type: Single-page application/demonstration site
+  Contains: Hero with stats, projects grid, achievements, tech stack, FGC prep banner, contact
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anchan | FGC 2026 Applicant</title>
+    <meta name="description" content="Grade 8 student from Nepal applying for FGC 2026 Team Nepal - Robotics portfolio">
+
+</head>
+<body>
+    <div class="bg-grid"></div>
+    <div class="bg-glow"></div>
+    <div class="bg-glow-2"></div>
+
+    <header>
+        <div class="container header-inner">
+            <div class="logo">Anchan</div>
+            <nav>
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-tag">FGC 2026 — Team Nepal Applicant</div>
+                <h1>Robotics Engineer,<br><span>from Nepal</span></h1>
+                <p class="hero-intro">
+                    Grade 8 student, 14 years old. Building autonomous robots for 1.5 years. 
+                    President of Holy Garden Robotics Club. Determined to represent Nepal at the world's robotics stage.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-value">1.5</span>
+                        <span class="stat-label">Years Building</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">4</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">3rd</span>
+                        <span class="stat-label">Herald Fair</span>
+                    </div>
+                </div>
+                <div class="cta-group">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <span class="section-label">01 / Projects</span>
+                <h2 class="section-title">What I've Built</h2>
+                <p class="section-subtitle">Self-taught robotics projects demonstrating hardware and software skills.</p>
+                
+                <div class="projects">
+                    <article class="project">
+                        <div class="project-header">
+                            <div class="project-icon">⚡</div>
+                            <span class="project-tag">Autonomous</span>
+                        </div>
+                        <h3>Line Follower</h3>
+                        <p>IR sensor array detecting complex paths with zero human input. Custom logic for sharp turns and intersections.</p>
+                    </article>
+
+                    <article class="project">
+                        <div class="project-header">
+                            <div class="project-icon">📡</div>
+                            <span class="project-tag">Sensing</span>
+                        </div>
+                        <h3>Sonar Rover</h3>
+                        <p>Ultrasonic obstacle detection with real-time environment mapping and navigation.</p>
+                    </article>
+
+                    <article class="project">
+                        <div class="project-header">
+                            <div class="project-icon">🕹️</div>
+                            <span class="project-tag">Embedded</span>
+                        </div>
+                        <h3>School Arcade</h3>
+                        <p>Original arcade games with EEPROM stat tracking and coin-mechanism integration.</p>
+                    </article>
+
+                    <article class="project">
+                        <div class="project-header">
+                            <div class="project-icon">🐭</div>
+                            <span class="project-tag">Prototype</span>
+                        </div>
+                        <h3>Samrat Bot 2.0</h3>
+                        <p>Palm-sized Pi Pico robot with personality states and OLED display for expressions.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <span class="section-label">02 / About</span>
+                <h2 class="section-title">Preparation</h2>
+                <p class="section-subtitle">Skills and experience I'm bringing to Team Nepal.</p>
+
+                <div class="achievement" style="margin-bottom: 20px;">
+                    <div class="achievement-icon">🏆</div>
+                    <div>
+                        <h3>3rd Place — <span>Herald Fair 2025</span></h3>
+                        <p>School-level science & technology exhibition</p>
+                    </div>
+                </div>
+
+                <div class="achievement">
+                    <div class="achievement-icon">🏛</div>
+                    <div>
+                        <h3>President — <span>Holy Garden Robotics Club</span></h3>
+                        <p>Leading a team of students in robotics research and development</p>
+                    </div>
+                </div>
+
+                <div style="margin-top: 48px;">
+                    <h3 style="font-size: 1.1rem; font-weight: 600; margin-bottom: 20px;">Tech Stack</h3>
+                    <div class="tech-grid">
+                        <span class="tech-item">Arduino / C++</span>
+                        <span class="tech-item">Raspberry Pi Pico</span>
+                        <span class="tech-item">ESP32</span>
+                        <span class="tech-item">Python</span>
+                        <span class="tech-item">OpenCV</span>
+                        <span class="tech-item">Onshape CAD</span>
+                        <span class="tech-item">PCB Design</span>
+                        <span class="tech-item">Godot 4</span>
+                        <span class="tech-item">Arch Linux</span>
+                    </div>
+                </div>
+
+                <div class="fgc-banner" style="margin-top: 48px;">
+                    <h3>FGC 2026 — <span>Incheon, South Korea</span></h3>
+                    <p>The "Olympics of Robotics" — currently mastering PID control, computer vision, and CAD design to compete.</p>
+                    <div class="fgc-tags">
+                        <span class="fgc-tag">PID Control</span>
+                        <span class="fgc-tag">OpenCV</span>
+                        <span class="fgc-tag">Onshape CAD</span>
+                        <span class="fgc-tag">RAN Yantra</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <span class="section-label">03 / Contact</span>
+                <h2>Ready to Represent Nepal</h2>
+                <p>Interested in connecting about Team Nepal or FGC 2026?</p>
+                <a href="mailto:anchan@example.com" class="email-link">anchan@example.com</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Grade 8 — Kathmandu, Nepal — 2026</p>
+        </div>
+    </footer>
+</body>
+</html>
